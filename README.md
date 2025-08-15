@@ -1,52 +1,69 @@
-# Restaurant Menu Ordering System
+<!-- Animated Header -->
+<h1 align="center">🍔 Restaurant Menu Ordering System</h1>
+<h3 align="center">Python Console-Based Menu, Tax & Delivery Calculation</h3>
 
-🍽 A simple Python-based restaurant menu ordering system that allows customers to choose from predefined offers, specify quantity, and receive a detailed receipt including total price, tax, and delivery fees.
+<!-- Typing Animation -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=3000&color=FF5722&center=true&vCenter=true&width=600&lines=Menu+Display;Order+Selection;Tax+Calculation;Delivery+Fee+Handling" alt="Typing Animation" />
+</p>
+
+---
+
+## 📖 Project Overview
+A **Python console application** that simulates a restaurant's ordering system.  
+It allows customers to choose from a menu, calculates the total bill, applies tax, and adds a delivery fee before displaying a detailed receipt.
+
+> 📌 Ideal for learning **Python basics**, **mathematical operations**, and **user input validation**.
 
 ---
 
-## Features
-- Display a restaurant menu with multiple offers and prices.
-- Accept user selection for menu items.
-- Calculate total price based on quantity.
-- Add tax and delivery fees automatically.
-- Display a formatted receipt with order details.
+## 🛠 Tools & Skills Used
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/CLI%20Application-000000?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
+<img src="https://img.shields.io/badge/Billing%20System-FFC107?style=for-the-badge&logo=calculator&logoColor=white"/>
+</p>
 
 ---
-Example:
 
-  Resturant Menu
+## ✨ Features
+- Displays a menu with item names and prices.
+- Accepts order number and quantity.
+- Calculates:
+  - Subtotal
+  - 10% Tax
+  - Delivery fee (fixed at 15 EGP)
+- Generates a detailed receipt.
 
-      1.El Talaa Duet Offer 172 LE
+---
 
-Your choice of 2 talaa chicken or beef sandwiches, medium fries and 1 can of soda
+## 🖥 Example Usage
 
-      2.King El Sa3ada 149 LE
+Restaurant Menu
 
-Single sandwich with one piece of chicken served with medium fries, coleslaw and 1 can of soda
+El Talaa Duet Offer - 172 LE
 
-      3.Wrap El Sa3ada 216 LE
+King El Sa3ada - 149 LE
 
-4 wrap sandwiches spicy or original
+Wrap El Sa3ada - 216 LE
 
-      4.Wrap Box 158 LE
+Wrap Box - 158 LE
 
-Spicy wrap sandwich or original, 1 piece of spicy or original chicken served with medium fries, coleslaw and 1 can of soda
-
-Choose offer number (1,2,3,4) from the menu: 2
+Choose offer number (1,2,3,4) from the menu: 1
 
 Enter offer Quantity: 2
 
-                Receipt                       
-              Date:12/11/2024
-           
-Item: King El Sa3ada 	Price: 149 	Quantity: 2
+            Receipt                       
+          Date:12/11/2024           
 
-Total: 298 
+Item: El Talaa Duet Offer Price: 172 Quantity: 2
 
-Tax: 29.8 
+Total: 344
 
-Delivery: 15 
+Tax: 34.4
 
-Final: 342.8
+Delivery: 15
+
+Final: 393.4
 
 Thank You for ordering from us
